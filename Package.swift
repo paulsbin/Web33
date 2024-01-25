@@ -22,7 +22,7 @@ let package = Package(
     dependencies: [
         // Core dependencies
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.0.0"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.0.0")
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.0.0"),
 
         // PromiseKit dependency
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.0.0"),
