@@ -3,15 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "Web4",
+    name: "Web3",
     platforms: [
        .iOS(.v10),
        .macOS(.v10_12)
     ],
     products: [
         .library(
-            name: "Web4",
-            targets: ["Web4"]),
+            name: "Web3",
+            targets: ["Web3"]),
         .library(
             name: "Web3PromiseKit",
             targets: ["Web3PromiseKit"]),
@@ -33,7 +33,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Web4",
+            name: "Web3",
             dependencies: [
                 .product(name: "BigInt", package: "BigInt"),
                 .product(name: "CryptoSwift", package: "CryptoSwift")
