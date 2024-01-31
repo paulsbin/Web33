@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Web3",
+    name: "Web33",
     platforms: [
        .iOS(.v10),
        .macOS(.v10_12)
